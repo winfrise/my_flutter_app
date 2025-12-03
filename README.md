@@ -8,6 +8,16 @@ A new Flutter project.
 flutter create my_flutter_app
 ```
 
+安装依赖
+```
+flutter pub get
+```
+
+启动项目
+```
+flutter run
+```
+
 Material Icons
 
 https://api.flutter-io.cn/flutter/material/Icons-class.html
