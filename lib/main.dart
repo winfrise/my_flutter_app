@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'layout/main_scaffold.dart';
-import 'pages/Home_Page.dart';
-import 'pages/buttons_page/index.dart';
-import 'pages/tabs_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,12 +14,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
       // 若显式设置initialRoute，会覆盖home的默认路由
-      // initialRoute: '/home', 
-      routes: {
-        '/home': (context) => const HomePage(),
-        '/buttons': (context) => const ButtonsPage(),
-        '/tabs': (context) => const TabsPage(),
-      },
+      // initialRoute: '/home',
+      // routes: {},
       home: const MainScaffold(), // 主容器
     );
   }
